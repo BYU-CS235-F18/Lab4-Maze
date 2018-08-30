@@ -1,3 +1,6 @@
+/*
+WARNING: It is expressly forbidden to modify any part of this file, including its name
+*/
 #pragma once
 #include <sstream>
 #include <fstream>
@@ -12,7 +15,7 @@
 #define SIZE 5
 
 /*
-WARNING: It is expressly forbidden to modify any part of this document, including its name
+WARNING: It is expressly forbidden to modify any part of this file, including its name
 */
 class Pathfinder
 {
