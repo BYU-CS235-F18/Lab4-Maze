@@ -17,7 +17,7 @@ WARNING: It is expressly forbidden to modify any part of this file, including it
 /*
 WARNING: It is expressly forbidden to modify any part of this file, including its name
 */
-class Pathfinder
+class Pathfinder: public PathfinderInterface
 {
 private:
 
@@ -121,7 +121,7 @@ public:
   /* These are all explained in PathfinderInterface.h */
   Pathfinder();
   ~Pathfinder();
-  string toString();
+  string toString() const;
   void createRandomMaze();
   bool importMaze(string file_name);
   vector<string> solveMaze();
