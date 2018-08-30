@@ -32,8 +32,8 @@ private:
    *
    * It will return a vector of strings that represents the path.
    * Each string in the vector should look something like this:
-   *  (0, 4, 2) for position x=0, y=4, z=2.
-   *
+   *  (0, 4, 2)
+   * for position x=0, y=4, z=2.
    * It will return an empty vector if input is invalid or a valid path
    *  is not found.
    *
